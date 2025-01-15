@@ -23,10 +23,6 @@ fun ListScreen(navigateToTaskScreen : (Int) -> Unit){
         }
     ){ innerPadding ->
         innerPadding
-        ListAppBar(
-            onSearchClicked = {},
-            onSortClicked = {},
-            onDeleteClicked = {}
-        )
+        ListAppBar()
     }
 }
