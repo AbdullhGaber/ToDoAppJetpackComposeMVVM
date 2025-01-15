@@ -8,7 +8,7 @@ import com.example.myapplication.ui.theme.NonePriorityColor
 
 
 enum class Priority(val color : Color){
-    High(HighPriorityColor),
+    HIGH(HighPriorityColor),
     MEDIUM(MediumPriorityColor),
     LOW(LowPriorityColor),
     NONE(NonePriorityColor)
